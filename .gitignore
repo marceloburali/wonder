@@ -1,0 +1,14 @@
+# Arquivos do Sistema Operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Imagens brutas duplicadas na raiz (as oficiais estão em assets/images/)
+WhatsApp Image*.jpeg
+
+# Logs e arquivos temporários
+*.log
+.vscode/
+.idea/
