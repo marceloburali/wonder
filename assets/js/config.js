@@ -5,11 +5,11 @@
 
 const CONFIG = {
   // Identificador do Google Tag Manager (Substitua pelo seu ID se tiver, ex: 'GTM-XXXXXXX')
-  GTM_ID: 'GTM-WONDER01',
+  GTM_ID: 'GTM-MDQLG6R3',
 
   // URL do Webhook do Google Apps Script gerada na sua planilha
   // Cole aqui a URL gerada seguindo o arquivo google-apps-script/INSTRUCOES_PLANILHA.md
-  GOOGLE_SHEET_WEBAPP_URL: '',
+  GOOGLE_SHEET_WEBAPP_URL: 'https://script.google.com/macros/s/AKfycbyNcRjSqM3zRA70lIfGYDiCHXUJFRUt_FlP-rTpv3c6DyXHTRf9lMgLI9ZU_74jD2Q/exec',
 
   // Dados de Contato e WhatsApp
   WHATSAPP_NUMBER: '5519981920044', // Formato internacional sem caracteres especiais

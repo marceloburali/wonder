@@ -216,4 +216,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // 5. RASTREAMENTO DE TOUR EM VÍDEO NO GTM
+  const videoPlayer = document.getElementById('main-video-player');
+  if (videoPlayer) {
+    let videoStarted = false;
+    videoPlayer.addEventListener('play', function () {
+      if (!videoStarted && window.WonderTracking) {
+        videoStarted = true;
+        window.WonderTracking.pushGtmEvent('video_play', {
+          video_name: 'Tour Apartamento Jooy Wonder',
+          page_type: document.body.dataset.pageType || 'Venda'
+        });
+      }
+    });
+  }
+
 });
