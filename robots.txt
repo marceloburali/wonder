@@ -1,0 +1,8 @@
+# Robots.txt - Residencial Jooy Wonder
+# Permite o rastreamento completo para todos os buscadores e indica a localização do sitemap
+
+User-agent: *
+Allow: /
+
+# Localização do Sitemap XML
+Sitemap: https://wonder-jooy.vercel.app/sitemap.xml
